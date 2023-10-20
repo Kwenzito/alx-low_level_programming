@@ -12,6 +12,7 @@
 void error_file(int ffile, int tfile, char *argv[])
 {
 	int error = -1;
+
 	if (ffile == error)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
